@@ -1,0 +1,36 @@
+{
+  "name": "212sdk",
+  "version": "0.0.1",
+  "description": "A Typescript SDK for Trading212's API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "start": "node dist/index.js",
+    "build:watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmdboi/trading212-sdk.git"
+  },
+  "keywords": [
+    "trading212",
+    "api",
+    "sdk"
+  ],
+  "author": "Max Diamond (dmdboi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmdboi/trading212-sdk/issues"
+  },
+  "homepage": "https://github.com/dmdboi/trading212-sdk#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-fetch": "^3.3.2"
+  }
+}
